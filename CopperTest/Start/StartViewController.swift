@@ -87,7 +87,7 @@ final class StartViewController: UIViewController {
             centerView.centerYAnchor.constraint(equalTo: view.centerYAnchor),
             centerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             centerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
-            centerView.heightAnchor.constraint(equalToConstant: 250)
+            centerView.heightAnchor.constraint(equalToConstant: 280)
         ])
         
         centerView.addSubviews([imageView, titleLabel, descriptionLabel, button])
